@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Automation.Web", "Core.Automation.Web\Core.Automation.Web.csproj", "{673045D2-F100-4F1E-A46E-6A0AB8355CCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Automation.Web", "Test.Automation.Web\Test.Automation.Web.csproj", "{3683F150-C685-48EC-9E36-2B7C18AED46B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{673045D2-F100-4F1E-A46E-6A0AB8355CCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{673045D2-F100-4F1E-A46E-6A0AB8355CCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{673045D2-F100-4F1E-A46E-6A0AB8355CCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{673045D2-F100-4F1E-A46E-6A0AB8355CCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3683F150-C685-48EC-9E36-2B7C18AED46B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3683F150-C685-48EC-9E36-2B7C18AED46B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3683F150-C685-48EC-9E36-2B7C18AED46B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3683F150-C685-48EC-9E36-2B7C18AED46B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

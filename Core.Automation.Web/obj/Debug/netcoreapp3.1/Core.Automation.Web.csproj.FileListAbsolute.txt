@@ -1,0 +1,8 @@
+/Users/nqaba/Projects/DigiQAEngineerAssessment/Core.Automation.Web/bin/Debug/netcoreapp3.1/Core.Automation.Web.deps.json
+/Users/nqaba/Projects/DigiQAEngineerAssessment/Core.Automation.Web/bin/Debug/netcoreapp3.1/Core.Automation.Web.dll
+/Users/nqaba/Projects/DigiQAEngineerAssessment/Core.Automation.Web/bin/Debug/netcoreapp3.1/Core.Automation.Web.pdb
+/Users/nqaba/Projects/DigiQAEngineerAssessment/Core.Automation.Web/obj/Debug/netcoreapp3.1/Core.Automation.Web.AssemblyInfoInputs.cache
+/Users/nqaba/Projects/DigiQAEngineerAssessment/Core.Automation.Web/obj/Debug/netcoreapp3.1/Core.Automation.Web.AssemblyInfo.cs
+/Users/nqaba/Projects/DigiQAEngineerAssessment/Core.Automation.Web/obj/Debug/netcoreapp3.1/Core.Automation.Web.csproj.CoreCompileInputs.cache
+/Users/nqaba/Projects/DigiQAEngineerAssessment/Core.Automation.Web/obj/Debug/netcoreapp3.1/Core.Automation.Web.dll
+/Users/nqaba/Projects/DigiQAEngineerAssessment/Core.Automation.Web/obj/Debug/netcoreapp3.1/Core.Automation.Web.pdb

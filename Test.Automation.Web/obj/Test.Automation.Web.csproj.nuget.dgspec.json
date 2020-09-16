@@ -1,0 +1,148 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/nqaba/Projects/DigiQAEngineerAssessment/Test.Automation.Web/Test.Automation.Web.csproj": {}
+  },
+  "projects": {
+    "/Users/nqaba/Projects/DigiQAEngineerAssessment/Core.Automation.Web/Core.Automation.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/nqaba/Projects/DigiQAEngineerAssessment/Core.Automation.Web/Core.Automation.Web.csproj",
+        "projectName": "Core.Automation.Web",
+        "projectPath": "/Users/nqaba/Projects/DigiQAEngineerAssessment/Core.Automation.Web/Core.Automation.Web.csproj",
+        "packagesPath": "/Users/nqaba/.nuget/packages/",
+        "outputPath": "/Users/nqaba/Projects/DigiQAEngineerAssessment/Core.Automation.Web/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/nqaba/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/nqaba/Projects/DigiQAEngineerAssessment/Test.Automation.Web/Test.Automation.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/nqaba/Projects/DigiQAEngineerAssessment/Test.Automation.Web/Test.Automation.Web.csproj",
+        "projectName": "Test.Automation.Web",
+        "projectPath": "/Users/nqaba/Projects/DigiQAEngineerAssessment/Test.Automation.Web/Test.Automation.Web.csproj",
+        "packagesPath": "/Users/nqaba/.nuget/packages/",
+        "outputPath": "/Users/nqaba/Projects/DigiQAEngineerAssessment/Test.Automation.Web/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/nqaba/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/Users/nqaba/Projects/DigiQAEngineerAssessment/Core.Automation.Web/Core.Automation.Web.csproj": {
+                "projectPath": "/Users/nqaba/Projects/DigiQAEngineerAssessment/Core.Automation.Web/Core.Automation.Web.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.4.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.15.1, )"
+            },
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            },
+            "SpecFlow.NUnit": {
+              "target": "Package",
+              "version": "[3.4.8, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

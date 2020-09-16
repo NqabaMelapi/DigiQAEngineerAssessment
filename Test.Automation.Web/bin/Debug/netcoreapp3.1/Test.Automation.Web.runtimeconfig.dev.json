@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/nqaba/.dotnet/store/|arch|/|tfm|",
+      "/Users/nqaba/.nuget/packages"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{3683F150-C685-48EC-9E36-2B7C18AED46B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Test.Automation.Web/Model/RegisterModel.cs">
+    <Files>
+      <File FileName="Core.Automation.Web/Selenium/WebDriver.cs" Line="176" Column="10" />
+      <File FileName="Core.Automation.Web/Selenium/DesiredCapabilities.cs" Line="8" Column="6" />
+      <File FileName="Test.Automation.Web/PrintHeadlineTest.cs" Line="17" Column="6" />
+      <File FileName="Test.Automation.Web/BetwayRegisterTest.cs" Line="12" Column="10" />
+      <File FileName="Test.Automation.Web/Screens/GoogleNews/Headlines.cs" Line="1" Column="1" />
+      <File FileName="Test.Automation.Web/Screens/Betway/Home.cs" Line="1" Column="1" />
+      <File FileName="Test.Automation.Web/Screens/Betway/Register.cs" Line="27" Column="46" />
+      <File FileName="Test.Automation.Web/Model/RegisterModel.cs" Line="6" Column="9" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DigiQAEngineerAssessment" expanded="True">
+            <Node name="Core.Automation.Web" expanded="True" />
+            <Node name="Test.Automation.Web" expanded="True">
+              <Node name="Model" expanded="True">
+                <Node name="RegisterModel.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Test.Automation.Web PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
