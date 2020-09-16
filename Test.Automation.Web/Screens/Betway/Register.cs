@@ -25,28 +25,39 @@ namespace Test.Automation.Web.Screens.Betway
         static IWebElement over18CheckBox => remoteWebDriver.FindElement(By.Name("Template.TemplateFieldModels[16].Value"));
         static IWebElement registerBtn => remoteWebDriver.FindElement(By.Id("regBtn"));
 
+        public static bool registrationCompletedSuccessfully = false;
+
         public static void RegisterAnAccount(RegisterModel registerModel)
         {
+            try
+            {
 
-            EnterText(mobileNumberField, registerModel.MobileNumber);
-            EnterText(passwordField, registerModel.Password);
-            EnterText(firstNameField, registerModel.FirstName);
-            EnterText(suranmeField, registerModel.Surname);
-            EnterText(emailField, registerModel.Email);
+                EnterText(mobileNumberField, registerModel.MobileNumber);
+                EnterText(passwordField, registerModel.Password);
+                EnterText(firstNameField, registerModel.FirstName);
+                EnterText(suranmeField, registerModel.Surname);
+                EnterText(emailField, registerModel.Email);
 
-            Click(nextBtn);
+                Click(nextBtn);
 
-            SelectDropdownByText(idTypeDropdown, registerModel.IdType);
-            EnterText(idNoField, registerModel.IdNumber);
+                SelectDropdownByText(idTypeDropdown, registerModel.IdType);
+                EnterText(idNoField, registerModel.IdNumber);
 
-            SelectDropdownByText(dobDayField, registerModel.DOBDay);
-            SelectDropdownByText(dobMonthField, registerModel.DOBMonth);
-            SelectDropdownByText(dobYearField, registerModel.DOBYear);
+                SelectDropdownByText(dobDayField, registerModel.DOBDay);
+                SelectDropdownByText(dobMonthField, registerModel.DOBMonth);
+                SelectDropdownByText(dobYearField, registerModel.DOBYear);
 
-            SelectDropdownByText(sourcOfFundsDropdown, registerModel.SourceOfFunds);
+                SelectDropdownByText(sourcOfFundsDropdown, registerModel.SourceOfFunds);
 
-            Click(over18CheckBox);
+                Click(over18CheckBox);
 
+                registrationCompletedSuccessfully = true;
+
+            }
+            catch (Exception e)
+            {
+                Console.Write("Registration failed with error {0}: ",e.Message);
+            }
         }
 
     }

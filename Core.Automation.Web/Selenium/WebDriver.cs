@@ -14,6 +14,11 @@ namespace Core.Automation.Web.Selenium
         protected static RemoteWebDriver remoteWebDriver;
         //protected static IWebDriver remoteWebDriver;
 
+        public static RemoteWebDriver GetRemoteWebDriver()
+        {
+            return remoteWebDriver;
+        }
+
         protected static void WaitForElementToBeEnabled(IWebElement element)
         {
             WebDriverWait wait = new WebDriverWait(remoteWebDriver, TimeSpan.FromSeconds(120));

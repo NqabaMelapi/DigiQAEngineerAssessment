@@ -12,12 +12,9 @@
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.4.0" />
     <PackageReference Include="Selenium.WebDriver" Version="3.141.0" />
     <PackageReference Include="Selenium.Support" Version="3.141.0" />
-    <PackageReference Include="SpecFlow.NUnit" Version="3.4.8" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Features\" />
-    <Folder Include="StepBindings\" />
     <Folder Include="Screens\" />
     <Folder Include="Screens\Betway\" />
     <Folder Include="Screens\GoogleNews\" />

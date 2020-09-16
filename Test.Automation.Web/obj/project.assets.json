@@ -690,7 +690,7 @@
           "lib/netstandard2.0/TechTalk.SpecFlow.dll": {}
         },
         "build": {
-          "build/SpecFlow.targets": {}
+          "build/_._": {}
         }
       },
       "SpecFlow.NUnit/3.4.8": {
@@ -707,8 +707,7 @@
           "lib/netstandard2.0/TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll": {}
         },
         "build": {
-          "build/SpecFlow.NUnit.props": {},
-          "build/SpecFlow.NUnit.targets": {}
+          "build/_._": {}
         }
       },
       "SpecFlow.Tools.MsBuild.Generation/3.4.8": {
@@ -717,11 +716,10 @@
           "SpecFlow": "[3.4.8]"
         },
         "build": {
-          "build/SpecFlow.Tools.MsBuild.Generation.props": {},
-          "build/SpecFlow.Tools.MsBuild.Generation.targets": {}
+          "build/_._": {}
         },
         "buildMultiTargeting": {
-          "buildMultiTargeting/SpecFlow.Tools.MsBuild.Generation.props": {}
+          "buildMultiTargeting/_._": {}
         }
       },
       "System.AppContext/4.1.0": {
@@ -1913,7 +1911,8 @@
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "Selenium.Support": "3.141.0",
-          "Selenium.WebDriver": "3.141.0"
+          "Selenium.WebDriver": "3.141.0",
+          "Specflow.NUnit": "3.4.8"
         },
         "compile": {
           "bin/placeholder/Core.Automation.Web.dll": {}
@@ -6666,36 +6665,42 @@
       "NUnit3TestAdapter >= 3.15.1",
       "Selenium.Support >= 3.141.0",
       "Selenium.WebDriver >= 3.141.0",
-      "SpecFlow.NUnit >= 3.4.8",
       "nunit >= 3.12.0"
     ]
   },
   "packageFolders": {
-    "/Users/nqaba/.nuget/packages/": {}
+    "C:\\Users\\nqabam\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/nqaba/Projects/DigiQAEngineerAssessment/Test.Automation.Web/Test.Automation.Web.csproj",
+      "projectUniqueName": "C:\\Projects\\DigiQAEngineerAssessment\\Test.Automation.Web\\Test.Automation.Web.csproj",
       "projectName": "Test.Automation.Web",
-      "projectPath": "/Users/nqaba/Projects/DigiQAEngineerAssessment/Test.Automation.Web/Test.Automation.Web.csproj",
-      "packagesPath": "/Users/nqaba/.nuget/packages/",
-      "outputPath": "/Users/nqaba/Projects/DigiQAEngineerAssessment/Test.Automation.Web/obj/",
+      "projectPath": "C:\\Projects\\DigiQAEngineerAssessment\\Test.Automation.Web\\Test.Automation.Web.csproj",
+      "packagesPath": "C:\\Users\\nqabam\\.nuget\\packages\\",
+      "outputPath": "C:\\Projects\\DigiQAEngineerAssessment\\Test.Automation.Web\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "/Users/nqaba/.config/NuGet/NuGet.Config"
+        "C:\\Users\\nqabam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "/Users/nqaba/Projects/DigiQAEngineerAssessment/Core.Automation.Web/Core.Automation.Web.csproj": {
-              "projectPath": "/Users/nqaba/Projects/DigiQAEngineerAssessment/Core.Automation.Web/Core.Automation.Web.csproj"
+            "C:\\Projects\\DigiQAEngineerAssessment\\Core.Automation.Web\\Core.Automation.Web.csproj": {
+              "projectPath": "C:\\Projects\\DigiQAEngineerAssessment\\Core.Automation.Web\\Core.Automation.Web.csproj"
             }
           }
         }
@@ -6725,10 +6730,6 @@
             "target": "Package",
             "version": "[3.141.0, )"
           },
-          "SpecFlow.NUnit": {
-            "target": "Package",
-            "version": "[3.4.8, )"
-          },
           "nunit": {
             "target": "Package",
             "version": "[3.12.0, )"
@@ -6749,7 +6750,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.401/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

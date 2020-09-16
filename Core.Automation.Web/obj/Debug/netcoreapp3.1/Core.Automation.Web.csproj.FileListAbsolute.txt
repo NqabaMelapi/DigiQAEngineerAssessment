@@ -6,3 +6,11 @@
 /Users/nqaba/Projects/DigiQAEngineerAssessment/Core.Automation.Web/obj/Debug/netcoreapp3.1/Core.Automation.Web.csproj.CoreCompileInputs.cache
 /Users/nqaba/Projects/DigiQAEngineerAssessment/Core.Automation.Web/obj/Debug/netcoreapp3.1/Core.Automation.Web.dll
 /Users/nqaba/Projects/DigiQAEngineerAssessment/Core.Automation.Web/obj/Debug/netcoreapp3.1/Core.Automation.Web.pdb
+C:\Projects\DigiQAEngineerAssessment\Core.Automation.Web\bin\Debug\netcoreapp3.1\Core.Automation.Web.deps.json
+C:\Projects\DigiQAEngineerAssessment\Core.Automation.Web\bin\Debug\netcoreapp3.1\Core.Automation.Web.dll
+C:\Projects\DigiQAEngineerAssessment\Core.Automation.Web\bin\Debug\netcoreapp3.1\Core.Automation.Web.pdb
+C:\Projects\DigiQAEngineerAssessment\Core.Automation.Web\obj\Debug\netcoreapp3.1\Core.Automation.Web.AssemblyInfoInputs.cache
+C:\Projects\DigiQAEngineerAssessment\Core.Automation.Web\obj\Debug\netcoreapp3.1\Core.Automation.Web.AssemblyInfo.cs
+C:\Projects\DigiQAEngineerAssessment\Core.Automation.Web\obj\Debug\netcoreapp3.1\Core.Automation.Web.dll
+C:\Projects\DigiQAEngineerAssessment\Core.Automation.Web\obj\Debug\netcoreapp3.1\Core.Automation.Web.pdb
+C:\Projects\DigiQAEngineerAssessment\Core.Automation.Web\bin\Debug\netcoreapp3.1\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll
