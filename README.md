@@ -16,7 +16,7 @@ This framework is designed to run remotely on docker Zalenium containers, this a
 
 ### Running Tests
 
-Test can be run through Visual Studio Test Explorer. 
+Test can be run through Visual Studio Test Explorer or through console.
 
 #### Visual Studio Run
 
@@ -35,6 +35,22 @@ dotnet build
 ```
 4. Open Test Explorer on VS IDE
 
+Note:
+Before running the tests make sure that [Zalenium Live Preview](http://35.184.125.21:4444/grid/admin/live) link is opened to monitor the run
+and don't forget to refresh the page before doing another run.
+
+
+#### Console Run
+
+1. Naviagte to the project root folder and run the following command
+```bash
+dotnet test --logger trx
+```
+
+Note:
+Before running the tests make sure that [Zalenium Live Preview](http://35.184.125.21:4444/grid/admin/live) link is opened to monitor the run
+and don't forget to refresh the page before doing another run.
+
 ### Monitoring Test Run
 
 This framework uses Zalenium Live Preview to monitor running tests.
@@ -42,7 +58,7 @@ This framework uses Zalenium Live Preview to monitor running tests.
 * Test logs and video recoding can be found [Zalenium Dashboard](http://35.184.125.21:4444/dashboard/), latest test are on top of the list.
 
 ### Test Results
-Test results can be found on Teamcity under Tests tab.
+Test results can be found on the "TestResults" folder on the root directory of the project.
 
 
 Note:
