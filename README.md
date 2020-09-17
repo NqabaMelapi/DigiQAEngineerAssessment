@@ -10,6 +10,13 @@
 * Zalenium
 * Google Cloud Platform
 
+
+## Project Dependencies
+* Selenium.Support(3.141.0)
+* Selenium.WebDriver(2,141.0)
+* SpecFlow.NUnit(3.4.8)
+
+
 ## Usage
 
 This framework is designed to run remotely on docker Zalenium containers, this allows test to run on scalable environment. Currently there are 2 nodes, this number can be decreased or increased according to the needs on the test.
