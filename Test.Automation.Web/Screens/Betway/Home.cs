@@ -8,22 +8,18 @@ namespace Test.Automation.Web.Screens.Betway
     {
         public Home() { }
 
-
-
         static IWebElement signUpBtn => remoteWebDriver.FindElement(By.Id("SignUp"));
         static IWebElement signUp2Btn => remoteWebDriver.FindElement(By.ClassName("BtnCont"));
-        static IWebElement BetwayLogo => remoteWebDriver.FindElement(By.ClassName("BtnCont"));
-
+        static IWebElement betwaySignUpLoginDialog => remoteWebDriver.FindElement(By.ClassName("/html/body/div[4]/div/div/div/div/div[2]/div/div[1]/a"));
 
         public static bool ValidateBetwayHomPage()
         {
-            WaitForElementToBeDisplay(BetwayLogo);
-            return BetwayLogo.Displayed;
+            WaitForElementToBeDisplay(betwaySignUpLoginDialog);
+            return betwaySignUpLoginDialog.Displayed;
         }
 
         public static void ClickSignUp()
         {
-            
             Click(signUpBtn);
             Click(signUp2Btn);
         }

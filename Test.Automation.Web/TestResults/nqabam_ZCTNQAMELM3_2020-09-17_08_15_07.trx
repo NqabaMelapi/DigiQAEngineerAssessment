@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="d881afe2-32b3-4e44-870f-8bb7d1d5314c" name="nqabam@ZCTNQAMELM3 2020-09-17 08:15:07" runUser="MGSOPS\nqabam" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2020-09-17T08:15:07.8567349+02:00" queuing="2020-09-17T08:15:07.8567375+02:00" start="2020-09-17T08:14:00.9361356+02:00" finish="2020-09-17T08:17:55.6486518+02:00" />
+  <TestSettings name="default" id="87227471-4494-425d-93fe-fa73fdd05527">
+    <Deployment runDeploymentRoot="nqabam_ZCTNQAMELM3_2020-09-17_08_15_07" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="08e4b091-91e5-498a-aeea-9aab6bed87f6" testId="a64df283-2ff8-0bc8-e358-d66525b32356" testName="PrintAllHeadlineOnAPage" computerName="ZCTNQAMELM3" duration="00:02:47.6696120" startTime="2020-09-17T08:15:07.0000000+02:00" endTime="2020-09-17T08:17:55.0000000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="08e4b091-91e5-498a-aeea-9aab6bed87f6">
+      <Output>
+        <StdOut>Given I navigated to Google news website&#xD;
+-&gt; done: GoogleNewsHeadlineFeatureSteps.GivenINavigatedToGoogleNewsWebsite() (18,1s)&#xD;
+And the Google headlines page is loaded successfully&#xD;
+-&gt; done: GoogleNewsHeadlineFeatureSteps.GivenTheGoogleHeadlinesPageIsLoadedSuccessfully() (4,6s)&#xD;
+Then I must be able to print all headline on the page&#xD;
+Today's Headline:&#xD;
+&#xD;
+ - Opposition parties react to Ramaphosa address &#xD;
+&#xD;
+ - Breaking: Fed sees economy shrinking at a softer pace in 2020 than previously forecasted &#xD;
+&#xD;
+ - Still no clarity on Springboks' Rugby Championship participation &#xD;
+&#xD;
+ - Lungisa to begin jail sentence &#xD;
+&#xD;
+ - BMW working on 128ti performance hatch to take on the Golf GTI &#xD;
+&#xD;
+ - DA lays criminal complaint against ANC officials that used SANDF jet to Zim &#xD;
+&#xD;
+Printing headlines faild with error message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/c-wiz/div/div[2]/div[2]/div/main/c-wiz/div[1]/div[9]/div/div/article/h3/a"}&#xD;
+  (Session info: chrome=84.0.4147.89)-&gt; error:   Headlines printing failed&#xD;
+  Expected: True&#xD;
+  But was:  False</StdOut>
+        <ErrorInfo>
+          <Message>  Headlines printing failed&#xD;
+  Expected: True&#xD;
+  But was:  False&#xD;
+</Message>
+          <StackTrace>   at Test.Automation.Web.StepBindings.GoogleNewsHeadlineFeatureSteps.ThenIMustBeAbleToPrintAllHeadlineOnThePage() in C:\Projects\DigiQAEngineerAssessment\Test.Automation.Web\FeatureSteps\GoogleNewsHeadlineFeatureSteps.cs:line 30&#xD;
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan&amp; duration)&#xD;
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)&#xD;
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)&#xD;
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()&#xD;
+   at TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()&#xD;
+   at Test.Automation.Web.Features.GoogleNewsHeadlineFeatureFeature.ScenarioCleanup()&#xD;
+   at Test.Automation.Web.Features.GoogleNewsHeadlineFeatureFeature.PrintAllHeadlineOnAPage() in C:\Projects\DigiQAEngineerAssessment\Test.Automation.Web\Features\GoogleNewsHeadlineFeature.feature:line 8&#xD;
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1e44a258-74a6-45e0-bc12-3b1b28264932" testId="d0051c14-4321-1bf7-b138-d2b2033cfb9a" testName="RegisterAsANewUser" computerName="ZCTNQAMELM3" duration="00:01:03.7295390" startTime="2020-09-17T08:14:03.0000000+02:00" endTime="2020-09-17T08:15:07.0000000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1e44a258-74a6-45e0-bc12-3b1b28264932">
+      <Output>
+        <StdOut>Given I navigate to Betway website&#xD;
+-&gt; done: BetwayRegistrationFeatureSteps.GivenINavigateToBetwayWebsite() (12,6s)&#xD;
+Then I should be able to register as new user&#xD;
+-&gt; done: BetwayRegistrationFeatureSteps.ThenIShouldBeAbleToRegisterAsNewUser() (49,8s)</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="RegisterAsANewUser" storage="c:\projects\digiqaengineerassessment\test.automation.web\bin\debug\netcoreapp3.1\test.automation.web.dll" id="d0051c14-4321-1bf7-b138-d2b2033cfb9a">
+      <Execution id="1e44a258-74a6-45e0-bc12-3b1b28264932" />
+      <TestMethod codeBase="C:\Projects\DigiQAEngineerAssessment\Test.Automation.Web\bin\Debug\netcoreapp3.1\Test.Automation.Web.dll" adapterTypeName="executor://nunit3testexecutor/" className="Test.Automation.Web.Features.BetwayRegistrationFeatureFeature" name="RegisterAsANewUser" />
+    </UnitTest>
+    <UnitTest name="PrintAllHeadlineOnAPage" storage="c:\projects\digiqaengineerassessment\test.automation.web\bin\debug\netcoreapp3.1\test.automation.web.dll" id="a64df283-2ff8-0bc8-e358-d66525b32356">
+      <Execution id="08e4b091-91e5-498a-aeea-9aab6bed87f6" />
+      <TestMethod codeBase="C:\Projects\DigiQAEngineerAssessment\Test.Automation.Web\bin\Debug\netcoreapp3.1\Test.Automation.Web.dll" adapterTypeName="executor://nunit3testexecutor/" className="Test.Automation.Web.Features.GoogleNewsHeadlineFeatureFeature" name="PrintAllHeadlineOnAPage" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="a64df283-2ff8-0bc8-e358-d66525b32356" executionId="08e4b091-91e5-498a-aeea-9aab6bed87f6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d0051c14-4321-1bf7-b138-d2b2033cfb9a" executionId="1e44a258-74a6-45e0-bc12-3b1b28264932" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="2" executed="2" passed="1" failed="1" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 3.15.1.0: Test execution started&#xD;
+Running all tests in C:\Projects\DigiQAEngineerAssessment\Test.Automation.Web\bin\Debug\netcoreapp3.1\Test.Automation.Web.dll&#xD;
+   NUnit3TestExecutor converted 2 of 2 NUnit test cases&#xD;
+NUnit Adapter 3.15.1.0: Test execution complete&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

@@ -14,20 +14,11 @@ namespace Test.Automation.Web.FeatureSteps
         [Given(@"I navigate to Betway website")]
         public void GivenINavigateToBetwayWebsite()
         {
-
-
             WebDriver.OpenBrowser("Chrome");
             WebDriver.NavigateToUrl("https://www.betway.co.za");
 
-
-
         }
-        
-        [Given(@"the page loads successfully")]
-        public void GivenThePageLoadsSuccessfully()
-        {
-
-        }
+       
         
         
         [Then(@"I should be able to register as new user")]
@@ -54,8 +45,8 @@ namespace Test.Automation.Web.FeatureSteps
             Assert.IsTrue(Screens.Betway.Register.registrationCompletedSuccessfully, "Registration failed error");
         }
 
-        [AfterScenario("CloseBrowser")]
-        public void CloseBrowser()
+        [AfterScenario]
+        public void AfterMethod()
         {
             WebDriver.CloseBrowser();
         }

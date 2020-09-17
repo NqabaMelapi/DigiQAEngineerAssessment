@@ -132,6 +132,10 @@
               "target": "Package",
               "version": "[3.141.0, )"
             },
+            "SpecFlow.NUnit": {
+              "target": "Package",
+              "version": "[3.4.8, )"
+            },
             "nunit": {
               "target": "Package",
               "version": "[3.12.0, )"

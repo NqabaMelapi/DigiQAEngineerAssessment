@@ -30,8 +30,8 @@ namespace Test.Automation.Web.StepBindings
             Assert.IsTrue(Screens.GoogleNews.Headlines.headlinesPrintedSuccessfully, "Headlines printing failed");
         }
 
-        [AfterScenario("CloseBrowser")]
-        public void CloseBrowser()
+        [AfterScenario]
+        public void AfterMethod()
         {
             WebDriver.CloseBrowser();
         }

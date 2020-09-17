@@ -690,7 +690,7 @@
           "lib/netstandard2.0/TechTalk.SpecFlow.dll": {}
         },
         "build": {
-          "build/_._": {}
+          "build/SpecFlow.targets": {}
         }
       },
       "SpecFlow.NUnit/3.4.8": {
@@ -707,7 +707,8 @@
           "lib/netstandard2.0/TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll": {}
         },
         "build": {
-          "build/_._": {}
+          "build/SpecFlow.NUnit.props": {},
+          "build/SpecFlow.NUnit.targets": {}
         }
       },
       "SpecFlow.Tools.MsBuild.Generation/3.4.8": {
@@ -716,10 +717,11 @@
           "SpecFlow": "[3.4.8]"
         },
         "build": {
-          "build/_._": {}
+          "build/SpecFlow.Tools.MsBuild.Generation.props": {},
+          "build/SpecFlow.Tools.MsBuild.Generation.targets": {}
         },
         "buildMultiTargeting": {
-          "buildMultiTargeting/_._": {}
+          "buildMultiTargeting/SpecFlow.Tools.MsBuild.Generation.props": {}
         }
       },
       "System.AppContext/4.1.0": {
@@ -6665,6 +6667,7 @@
       "NUnit3TestAdapter >= 3.15.1",
       "Selenium.Support >= 3.141.0",
       "Selenium.WebDriver >= 3.141.0",
+      "SpecFlow.NUnit >= 3.4.8",
       "nunit >= 3.12.0"
     ]
   },
@@ -6729,6 +6732,10 @@
           "Selenium.WebDriver": {
             "target": "Package",
             "version": "[3.141.0, )"
+          },
+          "SpecFlow.NUnit": {
+            "target": "Package",
+            "version": "[3.4.8, )"
           },
           "nunit": {
             "target": "Package",
