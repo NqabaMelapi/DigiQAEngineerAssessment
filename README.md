@@ -8,7 +8,6 @@
 * Selenium
 * Docker
 * Zalenium
-* TeamCity 2020.1
 * Google Cloud Platform
 
 ## Usage
@@ -17,17 +16,7 @@ This framework is designed to run remotely on docker Zalenium containers, this a
 
 ### Running Tests
 
-Test can be ran in 2 ways from Visual Studio Test Explorer or by running a build on Teamcity. I recommend running it on Teamcity, this way you won't run into trouble installing dependencies.
-
-#### Teamcity Build Run
-
-username: guest
-
-password: password!@#$
-
-1. Goto [Teamcity](http://35.184.125.21:8111/viewType.html?buildTypeId=) and login in using username and password.
-2. Click on "run" button to click off a run.
-
+Test can be run through Visual Studio Test Explorer. 
 
 #### Visual Studio Run
 
@@ -59,7 +48,6 @@ Test results can be found on Teamcity under Tests tab.
 Note:
 The following links may not work if you're accessing them connected to a VPN, you must disconect from your VPN.
 
-* [Teamcity](http://35.184.125.21:8111/viewType.html?buildTypeId=Build_CIBDigitalTech)
 * [Zalenium Live Preview](http://35.184.125.21:4444/grid/admin/live)
 * [Zalenium Dashboard](http://35.184.125.21:4444/dashboard/)
 
